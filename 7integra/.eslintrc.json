@@ -8,9 +8,6 @@
     "plugin:react-hooks/recommended"
   ],
   "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "project": "./tsconfig.app.json"
-  },
   "plugins": [
     "@typescript-eslint"
   ],
@@ -30,6 +27,9 @@
       ],
       "env": {
         "browser": true
+      },
+      "parserOptions": {
+        "project": "./tsconfig.vitest.json"
       }
     }
   ]
